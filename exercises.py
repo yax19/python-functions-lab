@@ -45,3 +45,27 @@ def calculate_tip(bill_amount, tip_percentage):
     return bill_amount * tip_percentage / 100
 
 print('Exercise 7:', calculate_tip(50, 20))
+
+# Exercise 8: Calculate Product of Numbers
+def product(*args):
+    result = 1
+    for num in args:
+        result *= num
+    return result
+
+print('Exercise 8:', product(2, 5, 5))
+
+# Exercise 9: Basic Calculator
+def basic_calculator(num1, num2, operation):
+    if operation == 'add':
+        return num1 + num2
+    elif operation == 'subtract':
+        return num1 - num2
+    elif operation == 'multiply':
+        return num1 * num2
+    elif operation == 'divide':
+        return num1 / num2
+    else:
+        return "Invalid operation"
+
+print('Exercise 9 Result:', basic_calculator(10, 5, "subtract"))
