@@ -27,3 +27,21 @@ def convert_temperature(temperature, unit):
 
 print('Exercise 4: Convert 0°C to Fahrenheit:', convert_temperature(0, 'C'))
 print('Exercise 4: Convert 32°F to Celsius:', convert_temperature(32, 'F'))
+
+# Exercise 5: Sum to N
+def sum_to(n):
+    return n * (n + 1) // 2
+
+print('Exercise 5:', sum_to(6))
+
+# Exercise 6: Find the Largest Number
+def largest(a, b, c):
+    return max(a, b, c)
+
+print('Exercise 6:', largest(1, 2, 3))
+
+# Exercise 7: Calculate a Tip
+def calculate_tip(bill_amount, tip_percentage):
+    return bill_amount * tip_percentage / 100
+
+print('Exercise 7:', calculate_tip(50, 20))
